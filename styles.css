@@ -15,8 +15,15 @@ h1 {
   color: brown;
   padding: 20px;
 }
+h1 + hr {
+  background-color: brown;
+  height: 5px;
+}
+dt ~ dd {
+  font-style: italic;
+} 
 
-.image {
+.image { 
   float: left;
   margin-right: 10px;
   margin-bottom: 40px;
