@@ -1,0 +1,48 @@
+#maindiv {
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #eec;
+}
+
+body {
+  background-color: #a60;
+}
+
+h1 {
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 42px;
+  color: brown;
+  padding: 20px;
+}
+
+.image {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+dt {
+  font-weight: bold;
+}
